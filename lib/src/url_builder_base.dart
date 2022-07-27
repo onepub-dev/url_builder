@@ -4,7 +4,7 @@
 ///
 /// Typically part1 will be a http://xxx type prefix
 /// and part2-part(n) are paths to be appended to the part1
-/// When concatinating parts the '/' separator will be stripped or
+/// When concatenating parts the '/' separator will be stripped or
 /// added as necessary to unsure there is just one '/' between parts.
 String urlJoin(String part1, String part2,
     [String? part3,
